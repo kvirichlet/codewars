@@ -1,0 +1,25 @@
+[{
+  "argument": "",
+  "result": true
+}, {
+  "argument": "a",
+  "result": true
+}, {
+  "argument": "bob",
+  "result": true
+}, {
+  "argument": "abba",
+  "result": true
+}, {
+  "argument": "Bob",
+  "result": true
+}, {
+  "argument": "abbA",
+  "result": true
+}, {
+  "argument": "reDiVIdEr",
+  "result": true
+}, {
+  "argument": "hello",
+  "result": false
+}]
