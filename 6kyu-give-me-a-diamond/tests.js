@@ -6,7 +6,7 @@ const testedFunction = require('.');
 
 describe(path.parse(__dirname).base, () => {
   examples.forEach(({ argument, result }) => {
-    it(`"${argument}" word`, () => {
+    it(`${argument} size diamond`, () => {
       expect(testedFunction(argument)).to.equal(result);
     });
   });

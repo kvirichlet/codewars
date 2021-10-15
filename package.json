@@ -1,6 +1,7 @@
 {
   "name": "codewars-solutions",
   "license": "UNLICENSED",
+  "author": "Vadim Kruglov <vk.vfloyd@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/kvirichlet/codewars.git"
