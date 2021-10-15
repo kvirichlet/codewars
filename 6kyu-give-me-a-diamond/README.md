@@ -18,7 +18,7 @@ A size 3 diamond:
 ***
  *
 ```
-...which would appear as a string of ` *\n***\n *\n`
+...which would appear as a string of " *\n***\n *\n"
 
 A size 5 diamond:
 ```
@@ -28,6 +28,4 @@ A size 5 diamond:
  ***
   *
 ```
-...that is:
-
-`  *\n ***\n*****\n ***\n  *\n`
+...that is:"  *\n ***\n*****\n ***\n  *\n"
