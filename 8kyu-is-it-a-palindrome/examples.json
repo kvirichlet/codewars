@@ -1,25 +1,25 @@
 [{
-  "argument": "",
+  "_arguments": [ "" ],
   "result": true
 }, {
-  "argument": "a",
+  "_arguments": [ "a" ],
   "result": true
 }, {
-  "argument": "bob",
+  "_arguments": [ "bob" ],
   "result": true
 }, {
-  "argument": "abba",
+  "_arguments": [ "abba" ],
   "result": true
 }, {
-  "argument": "Bob",
+  "_arguments": [ "Bob" ],
   "result": true
 }, {
-  "argument": "abbA",
+  "_arguments": [ "abbA" ],
   "result": true
 }, {
-  "argument": "reDiVIdEr",
+  "_arguments": [ "reDiVIdEr" ],
   "result": true
 }, {
-  "argument": "hello",
+  "_arguments": [ "hello" ],
   "result": false
 }]

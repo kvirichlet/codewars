@@ -1,22 +1,22 @@
 [{
-  "argument": 0,
+  "_arguments": [ 0 ],
   "result": null
 }, {
-  "argument": -1,
+  "_arguments": [ -1 ],
   "result": null
 }, {
-  "argument": 2,
+  "_arguments": [ 2 ],
   "result": null
 }, {
-  "argument": 1,
+  "_arguments": [ 1 ],
   "result": "*\n"
 }, {
-  "argument": 3,
+  "_arguments": [ 3 ],
   "result": " *\n***\n *\n"
 }, {
-  "argument": 5,
+  "_arguments": [ 5 ],
   "result": "  *\n ***\n*****\n ***\n  *\n"
 }, {
-  "argument": 7,
+  "_arguments": [ 7 ],
   "result": "   *\n  ***\n *****\n*******\n *****\n  ***\n   *\n"
 }]

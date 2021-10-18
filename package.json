@@ -7,7 +7,7 @@
     "url": "https://github.com/kvirichlet/codewars.git"
   },
   "scripts": {
-    "start": "mocha */tests.js",
+    "start": "mocha main.js",
     "pre-commit": "semistandard --fix && npm audit"
   },
   "husky": {
@@ -26,6 +26,9 @@
   },
   "dependencies": {
     "chai": "^4.3.4",
+    "config": "^3.3.6",
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
     "mocha": "^9.1.3"
   }
 }

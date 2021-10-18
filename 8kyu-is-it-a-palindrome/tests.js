@@ -1,13 +1,29 @@
-const path = require('path');
-const { expect } = require('chai');
+const faker = require('faker');
 
-const examples = require('./examples.json');
-const testedFunction = require('.');
+function getSettings (seed) {
+  faker.seed(seed);
+  const result = faker.datatype.boolean();
 
-describe(path.parse(__dirname).base, () => {
-  examples.forEach(({ argument, result }) => {
-    it(`"${argument}" word`, () => {
-      expect(testedFunction(argument)).to.equal(result);
-    });
-  });
-});
+  let word = faker.lorem.slug(3).replace(/-/g, '');
+  if (result) {
+    word = `${word}${word.split('').reverse().join('')}`;
+  } else {
+    while (word === word.split('').reverse().join('')) {
+      word = faker.lorem.slug(3).replace(/-/g, '');
+    }
+  }
+  word = word.split('').map(c => faker.datatype.boolean() ? c.toUpperCase() : c.toLowerCase()).join('');
+
+  return {
+    description: `"${word}" word`,
+    _arguments: [word],
+    result
+  };
+}
+
+const edgeCases = [];
+
+module.exports = {
+  getSettings,
+  edgeCases
+};
