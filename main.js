@@ -30,19 +30,21 @@ fs.readdirSync(__dirname)
           generateTestCase(examples[counter]);
         }
       });
-      if (!fs.existsSync(path.join(subpath, 'tests.js'))) {
-        return;
-      }
-      const { getSettings, edgeCases = [] } = require(path.join(subpath, 'tests.js'));
-      if (getSettings !== undefined) {
-        describe(`Random cases (seed: ${seed})`, () => {
-          for (let counter = 0; counter < config.randomCasesNumber; counter++) {
-            generateTestCase(getSettings(seed + counter));
+      describe(`Random cases (seed: ${seed})`, () => {
+        if (fs.existsSync(path.join(subpath, 'random-case-generator.js'))) {
+          const getSettings = require(path.join(subpath, 'random-case-generator.js'));
+            for (let counter = 0; counter < config.randomCasesNumber; counter++) {
+              generateTestCase(getSettings(seed + counter));
+            }
+        }
+      });
+      describe('Edge cases', () => {
+        if (fs.existsSync(path.join(subpath, 'edge-cases.js'))) {
+          const edgeCases = require(path.join(subpath, 'edge-cases.js'));
+          for (const { description, test } of edgeCases) {
+            it(description, test);
           }
-        });
-      }
-      for (const { description, test } of edgeCases) {
-        it(description, test);
-      }
+        }
+      });
     });
   });

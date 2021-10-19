@@ -1,6 +1,6 @@
 const faker = require('faker');
 
-function getSettings (seed) {
+module.exports = function (seed) {
   faker.seed(seed);
   const result = faker.datatype.boolean();
 
@@ -20,10 +20,3 @@ function getSettings (seed) {
     result
   };
 }
-
-const edgeCases = [];
-
-module.exports = {
-  getSettings,
-  edgeCases
-};
