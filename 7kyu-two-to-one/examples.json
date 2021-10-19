@@ -1,0 +1,40 @@
+[{
+  "_arguments": [ "", "" ],
+  "result": ""
+}, {
+  "_arguments": [ "a", "" ],
+  "result": "a"
+}, {
+  "_arguments": [ "", "a" ],
+  "result": "a"
+}, {
+  "_arguments": [ "a", "b" ],
+  "result": "ab"
+}, {
+  "_arguments": [ "ab", "cd" ],
+  "result": "abcd"
+}, {
+  "_arguments": [ "ba", "dc" ],
+  "result": "abcd"
+}, {
+  "_arguments": [ "aab", "cd" ],
+  "result": "abcd"
+}, {
+  "_arguments": [ "ab", "ccd" ],
+  "result": "abcd"
+}, {
+  "_arguments": [ "aba", "cd" ],
+  "result": "abcd"
+}, {
+  "_arguments": [ "ab", "cad" ],
+  "result": "abcd"
+}, {
+  "_arguments": [ "acb", "cad" ],
+  "result": "abcd"
+}, {
+  "_arguments": [ "acbc", "acad" ],
+  "result": "abcd"
+}, {
+  "_arguments": [ "loopingisfunbutdangerous", "lessdangerousthancoding" ],
+  "result": "abcdefghilnoprstu"
+}]
