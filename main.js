@@ -6,45 +6,46 @@ const { expect } = require('chai');
 
 const seed = config.seed || Date.now();
 
-fs.readdirSync(__dirname)
+const directories = fs.readdirSync(__dirname)
   .filter(name => fs.statSync(path.join(__dirname, name)).isDirectory() && /^\dkyu-.+/.test(name))
-  .forEach(name => {
-    const subpath = path.join(__dirname, name);
-    const testedFunction = require(subpath);
-    const examples = require(path.join(subpath, 'examples.json'));
+  .map(name => path.join(__dirname, name));
 
-    const generateTestCase = (() => {
-      let counter = 0;
-      return settings => {
-        const { description = `case ${counter++}`, _arguments, result } = settings;
-        it(description, () => {
-          expect(_arguments).to.be.an('array');
-          expect(testedFunction(..._arguments)).to.equal(result);
-        });
-      };
-    })();
+directories.forEach(directory => {
+  const testedFunction = require(directory);
+  const fixedTestCases = require(path.join(directory, config.entryPoints.fixedTestCases));
 
-    describe(path.parse(subpath).base, () => {
-      describe('Fixed cases:', () => {
-        for (let counter = 0; counter < examples.length; counter++) {
-          generateTestCase(examples[counter]);
-        }
+  const generateTestCase = (() => {
+    let counter = 0;
+    return settings => {
+      const { description = `case ${counter++}`, _arguments, result } = settings;
+      it(description, () => {
+        expect(_arguments).to.be.an('array');
+        expect(testedFunction(..._arguments)).to.equal(result);
       });
-      describe(`Random cases (seed: ${seed})`, () => {
-        if (fs.existsSync(path.join(subpath, 'random-case-generator.js'))) {
-          const getSettings = require(path.join(subpath, 'random-case-generator.js'));
-            for (let counter = 0; counter < config.randomCasesNumber; counter++) {
-              generateTestCase(getSettings(seed + counter));
-            }
-        }
-      });
-      describe('Edge cases', () => {
-        if (fs.existsSync(path.join(subpath, 'edge-cases.js'))) {
-          const edgeCases = require(path.join(subpath, 'edge-cases.js'));
-          for (const { description, test } of edgeCases) {
-            it(description, test);
+    };
+  })();
+
+  describe(path.parse(directory).base, () => {
+    describe('Fixed cases:', () => {
+      for (let counter = 0; counter < fixedTestCases.length; counter++) {
+        generateTestCase(fixedTestCases[counter]);
+      }
+    });
+    describe('Random cases', () => {
+      if (fs.existsSync(path.join(directory, config.entryPoints.testCaseMaker))) {
+        const getSettings = require(path.join(directory, config.entryPoints.testCaseMaker));
+          for (let counter = 0; counter < config.randomCasesNumber; counter++) {
+            generateTestCase(getSettings(seed + counter));
           }
+      }
+    });
+    describe('Additional cases', () => {
+      if (fs.existsSync(path.join(directory, config.entryPoints.additionalTestCases))) {
+        const edgeCases = require(path.join(directory, config.entryPoints.additionalTestCases));
+        for (const { description, test } of edgeCases) {
+          it(description, test);
         }
-      });
+      }
     });
   });
+})

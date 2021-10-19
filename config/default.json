@@ -1,4 +1,9 @@
 {
   "randomCasesNumber": 20,
-  "seed": null
+  "seed": null,
+  "entryPoints": {
+    "fixedTestCases": "examples.json",
+    "testCaseMaker": "test-case-maker.js",
+    "additionalTestCases": "additional-test-cases.js"
+  }
 }
