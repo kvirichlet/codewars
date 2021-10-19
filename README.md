@@ -11,5 +11,6 @@ Codewars has a limit on the execution of the entire set of test cases (12 second
 
 ## Repository structure
 
-The repository contains folders with a description of the kata, its solution and examples (arguments and the expected result). Most kata contain only a set of simple fixed test cases based on boundary value analysis and equivalence partitioning including positive and necessary negative cases. If the task requires additional test cases, they will be contained in an separate file.
+The repository contains folders with a description of the kata, its solution and examples (arguments and the expected result). Most kata contain only a set of simple fixed test cases based on boundary value analysis and equivalence partitioning including positive and necessary negative cases. If the task requires additional test cases, they will be contained in the separate file.
+
 Also, some folders will contain random case generator. They are not part of the solution. However, sometimes they will be added, since the problem of generating random data is also interesting to me.

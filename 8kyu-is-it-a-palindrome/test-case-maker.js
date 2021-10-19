@@ -19,4 +19,4 @@ module.exports = function (seed) {
     _arguments: [word],
     result
   };
-}
+};

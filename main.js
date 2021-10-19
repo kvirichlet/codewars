@@ -49,4 +49,4 @@ directories.forEach(directory => {
       }
     });
   });
-})
+});

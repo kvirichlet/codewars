@@ -18,7 +18,11 @@
   "semistandard": {
     "env": {
       "mocha": true
-    }
+    },
+    "ignore": [
+      "2kyu-multi-line-task-hello-world/index.js",
+      "2kyu-multi-line-task-hello-world/additional-test-cases.js"
+    ]
   },
   "devDependencies": {
     "husky": "^7.0.2",
