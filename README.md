@@ -14,5 +14,6 @@ The repository consists of folders with completed katas. The folder names begin 
 
 | Difficulty | Title | Solution |
 | ---------- | ----- | -------- |
-| 8kyu | [Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/javascript) | [JavaScript](./8kyu-even-or-odd/solution.mjs) |
-| 8kyu | [Is it a palindrome?](https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/javascript) | [JavaScript](./8kyu-is-it-a-palindrome/solution.mjs) |
+| 7kyu | [Two to One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac) | [JavaScript](./7kyu-two-to-one/solution.mjs) |
+| 8kyu | [Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe) | [JavaScript](./8kyu-even-or-odd/solution.mjs) |
+| 8kyu | [Is it a palindrome?](https://www.codewars.com/kata/57a1fd2ce298a731b20006a4) | [JavaScript](./8kyu-is-it-a-palindrome/solution.mjs) |

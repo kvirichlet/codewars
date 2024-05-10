@@ -1,6 +1,6 @@
 # [8kyu] Even or Odd
 
-[Original kata](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/javascript)
+[Original kata](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe)
 
 ## Details
 
