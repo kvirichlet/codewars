@@ -27,9 +27,9 @@ There are several solutions to this kata:
 
 Duration is based on 1 million runs. This is an approximate number to compare the overall efficiency of algorithms. These values ​​may vary slightly for different test cases.
 
-| Solution                     | Duration (short strings) | Duration (long strings) |
-| ---------------------------- | ------------------------ | ----------------------- |
-| String.prototype.includes    | 890ms                    | 1274ms                  |
-| Letter regexp                | 1372ms                   | 1719ms                  |
-| String concatenation regexp  | 1311ms                   | 6681ms                  |
-| Set                          | 1144ms                   | 27567ms                 |
+| Solution                     | Duration (short string) | Duration (long string) |
+| ---------------------------- | ----------------------- | ---------------------- |
+| String.prototype.includes    | 890ms                   | 1274ms                 |
+| Letter regexp                | 1372ms                  | 1719ms                 |
+| String concatenation regexp  | 1311ms                  | 6681ms                 |
+| Set                          | 1144ms                  | 27567ms                |
