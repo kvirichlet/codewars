@@ -1,3 +1,3 @@
 export function pigIt (str) {
-  return str.replace(/\b(\w)(\w*)\b/g, (word, firstLetter, restStr) => `${restStr}${firstLetter}ay`);
+  return str.replace(/\b(\w)(\w*)\b/g, `$2\$1ay`);
 }
