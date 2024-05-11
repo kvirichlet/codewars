@@ -72,25 +72,23 @@ const randomTests = Array.from({ length: 10 }, () => {
 });
 
 describe('[8kyu] Is it a palindrome?', () => {
-  describe('Fixed tests', () => {
-    for (const { title, fun } of solutions) {
-      describe(title, () => {
-        describe('Fixed tests', () => {
-          for (const { input, result } of fixedTests) {
-            it(`${typeof input} "${input}" => ${result}`, () => {
-              strictEqual(fun(input), result);
-            });
-          }
-        });
-
-        describe('Random tests', () => {
-          for (const { input, result } of randomTests) {
-            it(`"${input}" => ${result}`, () => {
-              strictEqual(fun(input), result);
-            });
-          }
-        });
+  for (const { title, fun } of solutions) {
+    describe(title, () => {
+      describe('Fixed tests', () => {
+        for (const { input, result } of fixedTests) {
+          it(`${typeof input} "${input}" => ${result}`, () => {
+            strictEqual(fun(input), result);
+          });
+        }
       });
-    }
-  });
+
+      describe('Random tests', () => {
+        for (const { input, result } of randomTests) {
+          it(`"${input}" => ${result}`, () => {
+            strictEqual(fun(input), result);
+          });
+        }
+      });
+    });
+  }
 });

@@ -14,6 +14,7 @@ The repository consists of folders with completed katas. The folder names begin 
 
 | Difficulty | Title | Solution |
 | ---------- | ----- | -------- |
+| 6kyu | [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006) | [JavaScript](./6kyu-multiples-of-3-or-5/solution.mjs) |
 | 7kyu | [Two to One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac) | [JavaScript](./7kyu-two-to-one/solution.mjs) |
 | 7kyu | [Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3) | [JavaScript](./7kyu-vowel-count/solution.mjs) |
 | 8kyu | [Even or Odd](https://www.codewars.com/kata/53da3dbb4a5168369a0000fe) | [JavaScript](./8kyu-even-or-odd/solution.mjs) |

@@ -44,25 +44,23 @@ const randomTests = Array.from({ length: 10 }, () => {
 });
 
 describe('[7kyu] Two to One', () => {
-  describe('Fixed tests', () => {
-    for (const { title, fun } of solutions) {
-      describe(title, () => {
-        describe('Fixed tests', () => {
-          for (const { input, result } of fixedTests) {
-            it(`[${input.join(', ')}] => ${result}`, () => {
-              strictEqual(fun(...input), result);
-            });
-          }
-        });
-
-        describe('Random tests', () => {
-          for (const { input, result } of randomTests) {
-            it(`[${input.join(', ')}] => ${result}`, () => {
-              strictEqual(fun(...input), result);
-            });
-          }
-        });
+  for (const { title, fun } of solutions) {
+    describe(title, () => {
+      describe('Fixed tests', () => {
+        for (const { input, result } of fixedTests) {
+          it(`[${input.join(', ')}] => ${result}`, () => {
+            strictEqual(fun(...input), result);
+          });
+        }
       });
-    }
-  });
+
+      describe('Random tests', () => {
+        for (const { input, result } of randomTests) {
+          it(`[${input.join(', ')}] => ${result}`, () => {
+            strictEqual(fun(...input), result);
+          });
+        }
+      });
+    });
+  }
 });
