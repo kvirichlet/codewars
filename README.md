@@ -12,8 +12,9 @@ Codewars has a limit on the execution of the entire set of test cases (12 second
 
 The repository consists of folders with completed katas. The folder names begin with the "{number}kyu", where the number indicates the difficulty of the task from 8 (beginner) to 1 (expert).
 
-| Difficulty | Title | Solution |
-| ---------- | ----- | -------- |
+| Difficulty | Codewars link | Solution |
+| ---------- | ------------- | -------- |
+| 4kyu | [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) | [JavaScript](./4kyu-human-readable-duration-format/solution.mjs) |
 | 5kyu | [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [JavaScript](./5kyu-moving-zeros-to-the-end/solution.mjs) |
 | 5kyu | [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f) | [JavaScript](./5kyu-simple-pig-latin/solution.mjs) |
 | 6kyu | [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006) | [JavaScript](./6kyu-multiples-of-3-or-5/solution.mjs) |

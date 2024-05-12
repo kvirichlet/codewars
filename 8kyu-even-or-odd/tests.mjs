@@ -53,7 +53,7 @@ describe('[8kyu] Even or Odd', () => {
   describe('Input validation', () => {
     for (const { title, input } of validations) {
       it(`Should throw an error if a ${title} is received`, () => {
-        throws(() => evenOrOdd(input), /Argument should be an integer number/);
+        throws(() => evenOrOdd(input), /Argument must be an integer/);
       });
     }
   });

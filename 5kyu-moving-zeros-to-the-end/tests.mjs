@@ -47,7 +47,7 @@ const randomTests = Array.from({ length: 10 }, () => {
         () => NaN,
         () => Math.random() > 0.5 ? Infinity : -Infinity,
         () => (Math.random() * 1000),
-        () => Math.trunc(Math.random() * 100),
+        () => Math.trunc(Math.random() * 100) + 1,
         () => ({}),
         () => [],
         () => Math.random() > 0.5,
