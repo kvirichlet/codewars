@@ -12,9 +12,10 @@ Codewars has a limit on the execution of the entire set of test cases (12 second
 
 The repository consists of folders with completed katas. The folder names begin with the "{number}kyu", where the number indicates the difficulty of the task from 8 (beginner) to 1 (expert).
 
-| Difficulty | Codewars link | Solution |
-| ---------- | ------------- | -------- |
+| Difficulty | Codewars link | Solutions |
+| ---------- | ------------- | --------- |
 | 3kyu | [Battleship field validator](https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7) | [JavaScript](./3kyu-battleship-field-validator/solution.mjs) |
+| 3kyu | [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26) | [JavaScript](./3kyu-the-millionth-fibonacci-kata/solution.mjs) |
 | 4kyu | [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) | [JavaScript](./4kyu-human-readable-duration-format/solution.mjs) |
 | 4kyu | [Range Extraction](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f) | [JavaScript](./4kyu-range-extraction/solution.mjs) |
 | 5kyu | [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [JavaScript](./5kyu-moving-zeros-to-the-end/solution.mjs) |

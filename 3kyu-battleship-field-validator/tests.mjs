@@ -110,7 +110,7 @@ const fixedTests = [{
   result: false
 }];
 
-describe('[4kyu] Range Extraction', () => {
+describe('[3kyu] Battleship field validator', () => {
   describe('Fixed tests', () => {
     for (const { title, input, result } of fixedTests) {
       it(title, () => {
