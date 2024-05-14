@@ -19,6 +19,7 @@ The repository consists of folders with completed katas. The folder names begin 
 | 3kyu | [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26) | [JavaScript](./3kyu-the-millionth-fibonacci-kata/solution.mjs) |
 | 4kyu | [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) | [JavaScript](./4kyu-human-readable-duration-format/solution.mjs) |
 | 4kyu | [Range Extraction](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f) | [JavaScript](./4kyu-range-extraction/solution.mjs) |
+| 4kyu | [The observed PIN](https://www.codewars.com/kata/5263c6999e0f40dee200059d) | [JavaScript](./4kyu-the-observed-pin/solution.mjs) |
 | 5kyu | [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [JavaScript](./5kyu-moving-zeros-to-the-end/solution.mjs) |
 | 5kyu | [Simple assembler interpreter](https://www.codewars.com/kata/58e24788e24ddee28e000053) | [JavaScript](./5kyu-simple-assembler-interpreter/solution.mjs) |
 | 5kyu | [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f) | [JavaScript](./5kyu-simple-pig-latin/solution.mjs) |
