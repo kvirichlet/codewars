@@ -126,8 +126,8 @@ const neighbors = {
 };
 const randomTests = Array.from({ length: 10 }, () => {
   let input = '';
-  let numbers = [ '' ];
-  const length = Math.ceil(Math.random() * 8)
+  let numbers = [''];
+  const length = Math.ceil(Math.random() * 8);
 
   for (let i = 0; i < length; i++) {
     const digit = Math.trunc(Math.random() * 10);
