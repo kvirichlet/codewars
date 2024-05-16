@@ -14,6 +14,7 @@ The repository consists of folders with completed katas. The folder names begin 
 
 | Difficulty | Codewars link | Solutions |
 | ---------- | ------------- | --------- |
+| 2kyu | [Assembler interpreter (part II)](https://www.codewars.com/kata/58e61f3d8ff24f774400002c) | [JavaScript](./2kyu-assembler-interpreter-part-ii/solution.mjs) |
 | 2kyu | [How can I throw an error here?](https://www.codewars.com/kata/5970f479e75b6c00ce000043) | [JavaScript](./2kyu-how-can-i-throw-an-error-here/solution.mjs) |
 | 3kyu | [Battleship field validator](https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7) | [JavaScript](./3kyu-battleship-field-validator/solution.mjs) |
 | 3kyu | [Defuse the bombs!](https://www.codewars.com/kata/54d558c72a5e542c0600060f) | [JavaScript](./3kyu-defuse-the-bombs/solution.mjs) |
