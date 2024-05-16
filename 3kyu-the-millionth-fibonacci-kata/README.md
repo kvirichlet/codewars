@@ -2,7 +2,7 @@
 
 [Original kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26)
 
-## Details
+## Instructions
 
 In this kata you will have to calculate `fib(n)` where:
 

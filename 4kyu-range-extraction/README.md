@@ -2,7 +2,7 @@
 
 [Original kata](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f)
 
-## Details
+## Instructions
 
 A format for expressing an ordered list of integers is to use a comma separated list of either:
 

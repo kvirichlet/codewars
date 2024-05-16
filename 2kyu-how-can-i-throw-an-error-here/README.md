@@ -2,7 +2,7 @@
 
 [Original kata](https://www.codewars.com/kata/5970f479e75b6c00ce000043)
 
-## Details
+## Instructions
 
 Write a function named `bang` throwing an `Error` with a message string `Just throw like this!` with these limits:
 

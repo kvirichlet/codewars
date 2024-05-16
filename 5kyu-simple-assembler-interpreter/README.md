@@ -2,7 +2,7 @@
 
 [Original kata](https://www.codewars.com/kata/58e24788e24ddee28e000053)
 
-## Details
+## Instructions
 
 We want to create a simple interpreter of assembler which will support the following instructions:
 
