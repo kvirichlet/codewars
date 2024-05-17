@@ -23,6 +23,7 @@ The repository consists of folders with completed katas. The folder names begin 
 | 4kyu | [Range Extraction](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f) | [JavaScript](./4kyu-range-extraction/solution.mjs) |
 | 4kyu | [The observed PIN](https://www.codewars.com/kata/5263c6999e0f40dee200059d) | [JavaScript](./4kyu-the-observed-pin/solution.mjs) |
 | 5kyu | [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | [JavaScript](./5kyu-moving-zeros-to-the-end/solution.mjs) |
+| 5kyu | [RGB To Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001) | [JavaScript](./5kyu-rgb-to-hex-conversion/solution.mjs) |
 | 5kyu | [Simple assembler interpreter](https://www.codewars.com/kata/58e24788e24ddee28e000053) | [JavaScript](./5kyu-simple-assembler-interpreter/solution.mjs) |
 | 5kyu | [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f) | [JavaScript](./5kyu-simple-pig-latin/solution.mjs) |
 | 6kyu | [Find the missing letter](https://www.codewars.com/kata/5839edaa6754d6fec10000a2) | [JavaScript](./6kyu-find-the-missing-letter/solution.mjs) |

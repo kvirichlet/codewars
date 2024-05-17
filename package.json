@@ -6,16 +6,16 @@
     "type": "git",
     "url": "https://github.com/kvirichlet/codewars.git"
   },
+  "scripts": {
+    "test": "node --test --experimental-test-coverage **/tests.mjs",
+    "semistandard": "semistandard",
+    "pre-commit": "semistandard && npm audit"
+  },
   "semistandard": {
     "globals": [
       "describe",
       "it"
     ]
-  },
-  "scripts": {
-    "test": "node --test --experimental-test-coverage **/tests.mjs",
-    "semistandard": "semistandard",
-    "pre-commit": "semistandard && npm audit"
   },
   "devDependencies": {
     "semistandard": "^16.0.1"
