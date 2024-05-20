@@ -30,7 +30,7 @@ export function checkPipe (map) {
 
   for (const source of sources) {
     if (visited.has(source)) continue;
-    
+
     const stack = [source.split(',').map(Number)];
     while (stack.length) {
       const [row, col] = stack.pop();
