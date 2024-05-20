@@ -18,6 +18,7 @@ The repository consists of folders with completed katas. The folder names begin 
 | 2kyu | [How can I throw an error here?](https://www.codewars.com/kata/5970f479e75b6c00ce000043) | [JavaScript](./2kyu-how-can-i-throw-an-error-here/solution.mjs) |
 | 3kyu | [Battleship field validator](https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7) | [JavaScript](./3kyu-battleship-field-validator/solution.mjs) |
 | 3kyu | [Defuse the bombs!](https://www.codewars.com/kata/54d558c72a5e542c0600060f) | [JavaScript](./3kyu-defuse-the-bombs/solution.mjs) |
+| 3kyu | [Fix the pipes - #2 - is it leaking?](https://www.codewars.com/kata/59f81fe146d84322ed00001e) | [JavaScript](./3kyu-fix-the-pipes-2-is-it-leaking/solution.mjs) |
 | 3kyu | [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26) | [JavaScript](./3kyu-the-millionth-fibonacci-kata/solution.mjs) |
 | 4kyu | [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) | [JavaScript](./4kyu-human-readable-duration-format/solution.mjs) |
 | 4kyu | [Range Extraction](https://www.codewars.com/kata/51ba717bb08c1cd60f00002f) | [JavaScript](./4kyu-range-extraction/solution.mjs) |
