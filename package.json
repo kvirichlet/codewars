@@ -1,21 +1,16 @@
 {
   "name": "codewars",
-  "license": "ISC",
   "author": "Vadim Kruglov <vk.vfloyd@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/kvirichlet/codewars.git"
   },
+  "license": "ISC",
+  "type": "module",
   "scripts": {
     "test": "node --test --experimental-test-coverage **/tests.mjs",
     "semistandard": "semistandard",
     "pre-commit": "semistandard && npm audit"
-  },
-  "semistandard": {
-    "globals": [
-      "describe",
-      "it"
-    ]
   },
   "devDependencies": {
     "semistandard": "^16.0.1"
