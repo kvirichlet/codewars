@@ -32,6 +32,7 @@ The repository consists of folders with completed katas. The folder names begin 
 | 5kyu | [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f) | [JavaScript](./5kyu-simple-pig-latin/solution.mjs) |
 | 6kyu | [Find the missing letter](https://www.codewars.com/kata/5839edaa6754d6fec10000a2) | [JavaScript](./6kyu-find-the-missing-letter/solution.mjs) |
 | 6kyu | [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006) | [JavaScript](./6kyu-multiples-of-3-or-5/solution.mjs) |
+| 6kyu | [Basics 08: Find next higher number with same Bits (1's)](https://www.codewars.com/kata/56bdd0aec5dc03d7780010a5) | [JavaScript](./6kyu-next-higher-number-with-same-1-bits/solution.mjs) |
 | 6kyu | [Stop gninnipS My sdroW!](https://www.codewars.com/kata/5264d2b162488dc400000001) | [JavaScript](./6kyu-stop-gninnips-my-sdrow/solution.mjs) |
 | 7kyu | [Highest and Lowest](https://www.codewars.com/kata/554b4ac871d6813a03000035) | [JavaScript](./7kyu-highest-and-lowest/solution.mjs) |
 | 7kyu | [Two to One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac) | [JavaScript](./7kyu-two-to-one/solution.mjs) |
