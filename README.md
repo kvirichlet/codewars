@@ -15,6 +15,7 @@ The repository consists of folders with completed katas. The folder names begin 
 | Difficulty | Codewars link | Solutions |
 | ---------- | ------------- | --------- |
 | 1kyu | [Functional SQL](https://www.codewars.com/kata/545434090294935e7d0010ab) | [JavaScript](./1kyu-functional-sql/solution.mjs) |
+| 1kyu | [Square sums](https://www.codewars.com/kata/5a667236145c462103000091) | [JavaScript](./1kyu-square-sums/solution.mjs) |
 | 2kyu | [Assembler interpreter (part II)](https://www.codewars.com/kata/58e61f3d8ff24f774400002c) | [JavaScript](./2kyu-assembler-interpreter-part-ii/solution.mjs) |
 | 2kyu | [How can I throw an error here?](https://www.codewars.com/kata/5970f479e75b6c00ce000043) | [JavaScript](./2kyu-how-can-i-throw-an-error-here/solution.mjs) |
 | 2kyu | [Regular Expression - Check if divisible by 0b111 (7)](https://www.codewars.com/kata/56a73d2194505c29f600002d) | [JavaScript](./2kyu-regular-expression-check-if-divisible-by-0b111/solution.mjs) |
